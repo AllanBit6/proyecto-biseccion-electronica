@@ -100,7 +100,7 @@ void graficar(float (*func)(float)) {
 
   display.clearDisplay();
 
-  // 🔹 Dibujar ejes
+  //Plane draw
   int ejeX = map(0, yMin * 100, yMax * 100, SCREEN_HEIGHT, 0);
   int ejeY = map(0, xMin * 100, xMax * 100, 0, SCREEN_WIDTH);
 
